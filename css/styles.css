@@ -578,7 +578,8 @@ margin-bottom: 8px;
     top: 0;
     background-color: #4D5AE5;
     width: 100%;
-    padding: 40px 32px;
+    height: 100%;
+    padding: 40px 32px ;
     transform: translateY(100%);
     transition: transform var(--trans);
     
