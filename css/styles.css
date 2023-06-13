@@ -76,11 +76,10 @@ img {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.inn{
-    position: relative;
-    color: var(--active-color);
-}
+
+
 .inn::after {
+    display: block;
     position: absolute;
     content: '';
     width: 100%;
@@ -90,7 +89,10 @@ img {
     left: 0;
     background-color: var(--active-color);
 }
-    
+
+
+
+
 .header-menu {
     display: flex;
     gap: 40px;
@@ -131,6 +133,10 @@ color: var(--title-color);
     padding-bottom: 24px;
     transition: color var(--trans);
 }
+.inn {
+    color: var(--active-color);
+    position: relative;}
+
 .link-nav:active,
 .link-nav:hover,
 .link-nav:focus {
